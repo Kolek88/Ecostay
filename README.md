@@ -2,6 +2,9 @@
 
 **Live Demo:** [View the Live Production Site](http://cvkhaliq.atwebpages.com/ttpEcostay/landing.html)
 
+## Disclaimer
+The project is still ongoing so there may be many bugs in the website or incomplete functions/pages
+
 ## Project Overview
 EcoStay is a web-based platform designed to promote sustainable practices and manage environmental initiatives. Built with a full-stack PHP architecture, the application features an interactive dashboard, user authentication, and an administrative backend for tracking reports and gamifying sustainable actions through a reward system.
 
