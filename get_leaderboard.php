@@ -8,14 +8,14 @@ if ($type === 'points') {
     // Top Points: Show individual students
     $sql = "SELECT username, block_name, eco_points FROM users ORDER BY eco_points DESC LIMIT 10";
 } else {
-    // Lowest Usage: Group by block and calculate the average electricity!
+    // Lowest Usage: Group by block and calculate the average electricity
     $sql = "SELECT block_name, 
-    		ROUND(SUM(base_electric)/500) as base_electric 
+            ROUND(AVG(base_electric)) as base_electric 
             FROM users 
             GROUP BY block_name 
             ORDER BY base_electric ASC 
             LIMIT 10";
-}
+} 
 
 $result = $conn->query($sql);
 $data = [];

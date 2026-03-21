@@ -78,7 +78,15 @@
                     </button>
                 </div>
             </div>
-            
+            <div style="margin: 0 20px 15px 20px; background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); overflow: hidden; border-left: 4px solid #3498db;">
+                <div style="padding: 10px 15px; display: flex; align-items: center; justify-content: space-between; cursor: pointer; background: #f8f9fa;" onclick="let el = this.nextElementSibling; el.style.display = el.style.display === 'block' ? 'none' : 'block';">
+                    <span style="font-size: 12px; font-weight: bold; color: #2c3e50;">ℹ️ Algorithm Note </span>
+                    <span style="font-size: 10px; color: #777;">Tap to read ▼</span>
+                </div>
+                <div style="display: none; padding: 12px 15px; font-size: 11px; color: #555; background: white; border-top: 1px solid #eee; line-height: 1.5;">
+                    <strong>Simulation Math:</strong> To provide realistic enterprise data for this prototype, the system takes the real test-user data, averages it, and extrapolates it across the village's example of physical capacity <strong>(500 students)</strong>. This guarantees a mathematically fair per-capita comparison across all blocks, regardless of how many users have registered so far.
+                </div>
+    </div>
             <div class="section" id="leaderboard-list">
                 <p style="text-align:center; color:#777;">Loading Ranks...</p>
             </div>
